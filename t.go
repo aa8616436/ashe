@@ -38,7 +38,7 @@ func (c *Ashe) IsEmptyMiniRedis() bool {
 }
 
 func (c *Ashe) IsEmptySqlMock() bool {
-	return c.Sqlmock == nil
+	return c.SqlMock == nil
 }
 
 func (c *Ashe) Drop(t T) *Ashe {
